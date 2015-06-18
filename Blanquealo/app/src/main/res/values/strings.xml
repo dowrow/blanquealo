@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Blanqu\u00E9alo</string>
+    <string name="accion_creditos">Cr\u00E9ditos</string>
+    <string name="escribe_tweet">Escribe tu tweet de humor negro:</string>
+    <string name="boton_blanquear">Blanquear</string>
+    <string name="title_activity_vista_previa">VistaPrevia</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="vista_previa">Vista Previa</string>
+    <string name="enviar_tweet">Enviar Tweet</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-5039779209013421/2617299773</string>
+
+
+</resources>
