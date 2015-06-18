@@ -34,7 +34,7 @@ public class Blanqueador {
     public String blanquear(String tweet) {
 
         for (String palabraTabu : dic.keySet()) {
-            tweet = tweet.replaceAll(palabraTabu, dic.get(palabraTabu));
+            tweet = tweet.replaceAll("(?i)" + palabraTabu, dic.get(palabraTabu));
         }
 
         return tweet;

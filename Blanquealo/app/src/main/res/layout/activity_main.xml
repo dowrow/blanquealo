@@ -14,11 +14,13 @@
         android:orientation="vertical">
 
         <LinearLayout
+            android:layout_margin="5dp"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="@color/color_twitter">
 
             <EditText
+
                 android:id="@+id/tweet"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"

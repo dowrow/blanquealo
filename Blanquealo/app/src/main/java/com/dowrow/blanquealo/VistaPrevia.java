@@ -54,7 +54,7 @@ public class VistaPrevia extends ActionBarActivity {
     }
 
     public void twitear (View view) {
-        String tweetCompleto = tweet + " vía @blanquealo";
+        String tweetCompleto = tweet + " (v\u00EDa @blanquealo)";
         Intent tweetIntent = new Intent(Intent.ACTION_SEND);
         tweetIntent.putExtra(Intent.EXTRA_TEXT, tweetCompleto);
         tweetIntent.setType("text/plain");
